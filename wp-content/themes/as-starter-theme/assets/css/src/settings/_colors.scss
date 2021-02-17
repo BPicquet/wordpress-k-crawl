@@ -1,0 +1,37 @@
+////
+/// Colors
+///
+/// @group Settings
+///
+////
+
+/// Grey scale
+$white: #fff;
+
+$grey: #cecece;
+
+$black: #303044;
+$black2: #323648;
+
+$another-grey: #5b5e6d;
+
+$seafoam-blue: #56d2cc;
+
+// Transparent grey scale
+$black-50: rgba($black, .5);
+
+/// Utility colors
+$red: #d9534f;
+$green: #5cb85c;
+$orange: #ffb15a;
+
+/// Branding colors
+$blue: #68bbdb;
+
+$color-main: $blue;
+
+/// Functionnal colors
+$color-text: $black;
+$color-link: $color-main;
+$color-error: $red;
+$color-valid: $green;

@@ -1,0 +1,17 @@
+////
+/// Layout of the page
+///
+/// @group Elements
+///
+////
+
+/// Text default font and color
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  font-family: $font; 
+  font-weight: $fw-regular; 
+  color: $color-text;
+  margin: 0 auto;
+}

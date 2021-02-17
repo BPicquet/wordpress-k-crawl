@@ -1,0 +1,132 @@
+{# front-page.php #}
+
+{% extends 'Layouts/base.twig' %}
+
+{% block content %}
+  <section class="take-demo">
+    <div> 
+      <h2>Exploitez enfin toutes les ressources digitales</h2>
+      <p>Solutions et outils de veille sur-mesure pour professionnels</p>
+      <form action="">
+        <input type="text">
+        <button type="submit" class="all-button">Demander une démo</button>
+      </form>
+    </div>
+    <img src="{{theme.path}}/assets/img/illu-principale.png" alt="">
+  </section>
+    
+  <section class="intelligence-eco">
+    <img class="bg-arrondi-bleu" src="{{theme.path}}/assets/img/bg-arrondi-bleu.png" alt="">
+    <div>
+      <h2>L'intelligence économique</h2>
+      <span class="rectangle-bleu"></span>
+    </div>
+    <div>
+      <h3>Tirez le meilleur parti d’une information colossale</h3>
+      <p>Envie d’en savoir plus sur les opportunités qui s’offrent à vous et les menaces auxquelles vous pourrez être confronté ?</p>
+      <p>L’Intelligence économique vous permet d’appréhender au mieux votre environnement et d’anticiper les évolutions dans les domaines clés : marché, innovation, réglementation, digital, territoire, stratégie, etc.</p>
+    </div>
+  </section>
+
+  <section class="presentation crawler">
+    <div>
+      <h3>Crawler</h3>
+      <h2>Surveillez tout ce que vous souhaitez, en continu</h2>
+      <p>Solutions d’automatisation de la collecte et du traitement de vos sources d’informations.</p>
+      <button type="submit" class="all-button seafoam-button">Découvrir le crawler</button>
+    </div>
+    <img src="{{theme.path}}/assets/img/crawler-illu.png" alt="">
+  </section>
+
+  <section class="presentation pilot">
+    <img class="haricot-jaune" src="{{theme.path}}/assets/img/haricot-jaune.png" alt="">
+    <img src="{{theme.path}}/assets/img/pilot-illu.png" alt="">
+    <div>
+      <h3>Pilot</h3>
+      <h2>Transformez l’information en données exploitables</h2>
+      <p>Solution d’enrichissement, de modélisation et de classement de contenus.</p>
+      <button type="submit" class="all-button seafoam-button">Découvrir pilot</button>
+    </div>
+  </section>
+
+  <section class="presentation platform">
+    <img class="haricot-violet" src="{{theme.path}}/assets/img/haricot-violet.png" alt="">
+    <div>
+      <h3>Platform</h3>
+      <h2>Pour chacun, la bonne info, au bon format, au bon moment</h2>
+      <p>Solution de diffusion d’informations et d’aide à la décision.</p>
+      <button type="submit" class="all-button seafoam-button">Découvrir platform</button>
+    </div>
+    <img src="{{theme.path}}/assets/img/platform-illu.png" alt="">
+  </section>
+
+  <section class="nos-solutions">
+    <img class="arc-cercle-solutions" src="{{theme.path}}/assets/img/arc-cercle-solutions.png" alt="">
+    <h2>Nos solutions parfaites pour</h2>
+    <div>
+      <div class="nos-solutions__lign1">
+        <div>
+          <img src="{{theme.path}}/assets/img/tescontent.png" alt="">
+          <h3>Dirigeant d’entreprise</h3>
+          <p>Lorem ipsum dolor amet valem setum dolor vale oler sole batum duneil. Lorem ipsum dolor</p>
+        </div>
+        <div>
+          <img src="{{theme.path}}/assets/img/tescontent.png" alt="">
+          <h3>Département marketing</h3>
+          <p>Lorem ipsum dolor amet valem setum dolor vale oler sole batum duneil. Lorem ipsum dolor</p>
+        </div>
+        <div>
+          <img src="{{theme.path}}/assets/img/tescontent.png" alt="">
+          <h3>Département juridique</h3>
+          <p>Lorem ipsum dolor amet valem setum dolor vale oler sole batum duneil. Lorem ipsum dolor</p>
+        </div>
+      </div>
+      <div class="nos-solutions__lign2">
+        <div>
+          <img src="{{theme.path}}/assets/img/tescontent.png" alt="">
+          <h3>Département R&D</h3>
+          <p>Lorem ipsum dolor amet valem setum dolor vale oler sole batum duneil. Lorem ipsum dolor</p>
+        </div>
+        <div>
+          <img src="{{theme.path}}/assets/img/tescontent.png" alt="">
+          <h3>Département d'études</h3>
+          <p>Lorem ipsum dolor amet valem setum dolor vale oler sole batum duneil. Lorem ipsum dolor</p>
+        </div>
+        <div>
+          <img src="{{theme.path}}/assets/img/tescontent.png" alt="">
+          <h3>Documentaliste</h3>
+          <p>Lorem ipsum dolor amet valem setum dolor vale oler sole batum duneil. Lorem ipsum dolor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="confiance">
+    <div>
+      <h2>Ils nous font confiance</h2>
+      <span class="rectangle-bleu"></span>
+    </div>
+  </section>
+
+  <section class="blog" id="le-blog">
+    <h2>Le Blog</h2>
+    <div class="blog__articles-container">
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+    </div>
+    <button class="all-button seafoam-button">Plus d'articles</button>
+  </section>
+{% endblock %}

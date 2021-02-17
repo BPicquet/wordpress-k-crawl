@@ -1,0 +1,26 @@
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1202px;
+    height: 54px;
+    margin: 40px 118px 100px 120px;
+    padding: 0 4px 0 2px;
+}
+
+#header a{
+    color: $black;
+    margin: 0 15px;
+    font-size: 13px;
+}
+
+#header > button{
+    width: 195px;
+    height: 43px;
+    margin: 0 0 0 34px;
+    padding: 11px 5px 13px 6px;
+    border-radius: 24px;
+    background-color: #56d2cc;
+    color: white;
+    font-size: 13px;
+}
