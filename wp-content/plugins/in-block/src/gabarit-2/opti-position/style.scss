@@ -1,0 +1,44 @@
+/* Optimiser positionnement */
+.optimiser-positionnement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 300px 0;
+}
+
+.optimiser-positionnement > img{
+    width: 45%;
+}
+
+.optimiser-positionnement > div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.optimiser-positionnement > div h2{
+    font-size: 20px;
+    color: #56d2cc;
+}
+
+.optimiser-positionnement > div p{
+    font-size: 16px;
+    color: #5b5e6d;
+}
+
+.optimiser-positionnement > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.optimiser-positionnement > div > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 0;
+}

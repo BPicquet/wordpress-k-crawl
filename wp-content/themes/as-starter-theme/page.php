@@ -25,9 +25,4 @@ $context = Timber::get_context();
 $post = new Timber\Post();
 $context['post'] = $post;
 
-Timber::render(array(
-    'Templates/page-' . $post->post_name . '.twig',
-    'Templates/page.twig',
-    'Templates/singular.twig',
-    'Templates/index.twig')
-, $context );
+Timber::render('Templates/gabarit-2.twig', $context);

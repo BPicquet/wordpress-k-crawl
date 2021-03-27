@@ -1,0 +1,38 @@
+/* Take demo */
+.take-demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 300px 0;
+
+    img{
+        width: 45%;
+    }
+    div{
+        width: 50%;
+    }
+    h2{
+        font-size: 40px;
+    }
+    p{
+        color: #5b5e6d;
+        font-size: 20px;
+    }
+    input{
+        border-color: grey;
+        height: 45px;
+        width: 220px;
+    }
+}
+
+.all-button{
+    width: 195px;
+    height: 43px;
+    margin: 0 0 0 34px;
+    padding: 20px 30px;
+    border-radius: 24px;
+    background-color: #ffb15a;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}

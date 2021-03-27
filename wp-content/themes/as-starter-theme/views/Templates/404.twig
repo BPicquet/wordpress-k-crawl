@@ -2,5 +2,32 @@
 {% extends 'Layouts/base.twig' %}
 
 {% block content %}
-  <h1>404</h1>
+<section id="error">
+  <div id='err-content'>
+    <img src="{{theme.path}}/assets/img/404.png">
+    <h2>Oups, cette page n'existe pas !</h2>
+    <button class='button-demo button-orange'>Découvrez nos offres</button>
+  </div>
+</section>
+<section class="blog" id="le-blog">
+    <h2>Le Blog</h2>
+    <div class="blog__articles-container">
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+    </div>
+    <button class="all-button seafoam-button">Plus d'articles</button>
+  </section>
 {% endblock %}

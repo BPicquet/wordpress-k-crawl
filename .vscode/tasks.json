@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "wp-content/themes/twentynineteen/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - wp-content/themes/twentynineteen",
+			"detail": "run-p \"build:*\""
+		}
+	]
+}

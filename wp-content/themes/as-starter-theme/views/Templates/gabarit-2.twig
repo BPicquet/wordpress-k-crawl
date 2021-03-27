@@ -1,0 +1,104 @@
+{# gabarit-2.php #}
+
+{% extends 'Layouts/base.twig' %}
+
+{% block content %}
+{{post.content}}
+  <section class="veille-concurentielle">
+    <div>
+        <h1>Veille concurentielle</h1>
+        <p>Maîtriser votre environnement de marché</p>
+    </div>
+    <img src="{{theme.path}}/assets/img/illu-principale.png" alt="">
+  </section>
+
+  <section class="optimiser-positionnement">
+    <img src="{{theme.path}}/assets/img/illu-principale.png" alt="">
+    <div>
+        <h2>Optimiser votre positionnement concurrentielle</h2>
+        <div>
+            <div>
+                <h3>Gardez un coup d'avance</h3>
+                <p>Rester</p>
+            </div>
+            <div>
+                <h3>Traitez l'information à la source</h3>
+                <p>Rester</p>
+            </div>
+            <div>
+                <h3>Concentrez-vous sur l'essentiel</h3>
+                <p>Rester</p>
+            </div>
+            <div>
+                <h3>Agissez au plus juste</h3>
+                <p>Rester</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="leadership">
+    <div>
+        <h2>Garder le leadership</h2>
+        <div>
+            <div>
+                <h3>Exploiter la moindre donnée</h3>
+                <p>Rester</p>
+            </div>
+            <div>
+                <h3>Montez en compétences</h3>
+                <p>Rester</p>
+            </div>
+            <div>
+                <h3>Affinez votre stratégie</h3>
+                <p>Rester</p>
+            </div>
+            <div>
+                <h3>Devenez la référence de votre marché</h3>
+                <p>Rester</p>
+            </div>
+        </div>
+        <a class="button-garder-leadership">La veille concurentielle en détail</a>
+    </div>
+    <img src="{{theme.path}}/assets/img/illu-principale.png" alt="">
+  </section>
+
+  <section class="confiance">
+    <div>
+      <h2>Ils nous font confiance</h2>
+      <span class="rectangle-bleu"></span>
+    </div>
+  </section>
+
+  <section class="blog" id="le-blog">
+    <h2>Le Blog</h2>
+    <div class="blog__articles-container">
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+      <div>
+        <div></div>
+        <h3>La veille collaborative : l’avenir de la veille en entreprise ?</h3>
+        <p>12 FEV 2019</p>
+      </div>
+    </div>
+    <a class="button-plus-article">Plus d'articles</a>
+  </section>
+
+  <section class="apprendre-davantage">
+    <img src="{{theme.path}}/assets/img/illu-principale.png" alt="">
+    <div>
+        <h2>Prêt à en apprendre davantage sur vos concurrents ?</h2>
+        <p>De la conception de votre outil, à la personnalisation et au suivi de ses fonctionnalités, KB Crawl vous offre un panel de services adaptés à vos besoins.</p>
+        <a class="button-apprendre-avantage">Découvrez nos solutions</a>
+    </div>
+  </section>
+  
+{% endblock %}

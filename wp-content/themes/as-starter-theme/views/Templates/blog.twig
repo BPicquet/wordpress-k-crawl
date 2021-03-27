@@ -1,0 +1,15 @@
+<div class="blog-index">
+    <div class="container">
+        <h3>Blog</h3>
+        <div class="blog-index__grid" href="#">
+            {% for item in postsBlog %}
+            <a href="{{ item.link }}" class="blog-index__grid-item">
+                <div class="item-img" style="background-image: url('{{ item.urlthumb }}')"></div>
+                <p class="item-title">{{ item.title }}</p>
+                <p class="item-date">{{ item.date }}</p>
+            </a>
+            {% endfor %}
+        </div>
+        <a href="#" class="default_button">Plus d'articles</a>
+    </div>
+</div>

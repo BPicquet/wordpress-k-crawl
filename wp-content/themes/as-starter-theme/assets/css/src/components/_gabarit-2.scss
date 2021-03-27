@@ -1,0 +1,221 @@
+/* Veille-concurentielle */
+.veille-concurentielle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 300px 0;
+}
+
+.veille-concurentielle > img{
+    width: 45%;
+}
+
+.veille-concurentielle > div{
+    width: 50%;
+}
+
+.veille-concurentielle h1{
+    font-size: 50px;
+}
+
+.veille-concurentielle p{
+    color: $another-grey;
+    font-size: 30px;
+}
+
+/* Optimiser positionnement */
+.optimiser-positionnement{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 300px 0;
+}
+
+.optimiser-positionnement > img{
+    width: 40%;
+    margin-right: 200px;
+}
+
+.optimiser-positionnement > div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.optimiser-positionnement > div h2{
+    font-size: 30px;
+}
+
+.optimiser-positionnement > div h3{
+    margin: 5px;
+    font-size: 20px;
+    color: #56d2cc;
+}
+
+.optimiser-positionnement > div p{
+    margin: 5px;
+    font-size: 16px;
+    color: #5b5e6d;
+}
+
+.optimiser-positionnement > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.optimiser-positionnement > div > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+/* Leadership */
+.leadership{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 200px 0;
+}
+
+.leadership > img{
+    width: 40%;
+}
+
+.leadership > div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.leadership > div h2{
+    font-size: 30px;
+}
+
+.leadership > div h3{
+    font-size: 20px;
+    color: #56d2cc;
+    margin: 5px;
+}
+
+.leadership > div p{
+    font-size: 16px;
+    color: #5b5e6d;
+    margin: 5px;
+}
+
+.leadership > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.leadership > div > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.button-garder-leadership{
+    padding: 7px 15px;
+    background-color: #56d2cc;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+/* Confiance */
+
+
+/* Blog */
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.blog > h2{
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+
+.blog__articles-container > div h3{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.blog__articles-container > div p{
+    margin: 5px;
+    font-size: 15px;
+}
+
+.blog__articles-container{
+    display: flex;
+    margin: 20px 0 40px 0;
+}
+
+.blog__articles-container > div{
+    margin: 20px;
+}
+
+.blog__articles-container > div > div{
+    width: 378px;
+    height: 248px;
+    background-color: #5dd1e6;
+}
+.button-plus-article{
+    padding: 10px 40px;
+    background-color: #56d2cc;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+/* Apprendre davantage */
+.apprendre-davantage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.apprendre-davantage > img{
+    width: 40%;
+    margin-right: 100px;
+}
+
+.apprendre-davantage > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.apprendre-davantage h2{
+    font-size: 40px;
+}
+
+.apprendre-davantage p{
+    font-size: 16px;
+}
+
+.button-apprendre-avantage{
+    padding: 10px 40px;
+    background-color: #56d2cc;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
+

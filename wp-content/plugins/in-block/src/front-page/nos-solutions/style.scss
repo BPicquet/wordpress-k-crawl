@@ -1,0 +1,45 @@
+/* Nos solutions parfaites */
+.nos-solutions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 200px 0;
+    overflow: auto;
+}
+
+.nos-solutions > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nos-solutions h2{
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+
+.nos-solutions h3{
+    font-size: 22px;
+}
+
+.nos-solutions p{
+    font-size: 18px;
+}
+
+.nos-solutions__lign1, .nos-solutions__lign2{
+    display: flex;
+    align-items: center;
+}
+
+.nos-solutions__lign1 > div, .nos-solutions__lign2 > div{
+    width: 280px;
+    margin: 30px;
+}
+
+.arc-cercle-solutions{
+    position: absolute;
+    left: 0;
+    top: 3200px;
+}

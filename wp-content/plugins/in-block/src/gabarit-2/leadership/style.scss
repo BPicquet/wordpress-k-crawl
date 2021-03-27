@@ -1,0 +1,52 @@
+/* Leadership */
+.leadership{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 300px 0;
+}
+
+.leadership > img{
+    width: 45%;
+}
+
+.leadership > div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.leadership > div h2{
+    font-size: 20px;
+    color: #56d2cc;
+}
+
+.leadership > div p{
+    font-size: 16px;
+    color: #5b5e6d;
+}
+
+.leadership > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.leadership > div > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.all-button{
+    padding: 7px 10px;
+    background-color: #56d2cc;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}

@@ -1,10 +1,13 @@
-.footer{
-    width: 80%;
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 150px;
 }
 
 .top-part__footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
 }
 
@@ -40,7 +43,6 @@
     justify-content: center;
     align-items: center;
     color: $black;
-    width: 100%;
 }
 
 .bottom-part__footer a{
@@ -48,7 +50,7 @@
 }
 
 .bottom-part__footer > span{
-    width: 100%;
+    width: 1200px;
     background-color: #5b5e6d;
     height: 1px;
     margin: 43px 0 27px 0;
@@ -58,7 +60,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .bottom-part__footer > div > div a{

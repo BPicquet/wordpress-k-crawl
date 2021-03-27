@@ -1,0 +1,23 @@
+.veille-concurentielle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 300px 0;
+}
+
+.veille-concurentielle > img{
+    width: 20%;
+}
+
+.veille-concurentielle > div{
+    width: 50%;
+}
+
+.veille-concurentielle h1{
+    font-size: 40px;
+}
+
+.veille-concurentielle p{
+    color: #5b5e6d;
+    font-size: 20px;
+}
